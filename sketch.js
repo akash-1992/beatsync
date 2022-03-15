@@ -339,6 +339,7 @@ function animate_radius(){
     spec9 = max(spec4)
     spec10 = max(spec5)
     // console.log(spec1, spec2)
+    //The 5th return value is 4, helps in animation. Essentially the 5th value should be spec5/5
     return [spec1/2, spec2/2, spec3/3, spec4,4, spec5/5,spec6,spec7,spec8,spec9,spec10]
   }
 }
